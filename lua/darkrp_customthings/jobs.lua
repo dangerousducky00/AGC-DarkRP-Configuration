@@ -122,6 +122,20 @@ TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
     -- Insert customCheck here if you have one and want one.
 })
 
+TEAM_THIEF = DarkRP.createJob("whaler", {
+    color = Color(139, 0, 0),
+    model = "models/player/robber.mdl",
+    description = [[You are a thief, rob people, break into their house and steal legal printers and more.]],
+    weapons = {"lockpick"}, 
+    command = "thief",
+    max = 2,
+    salary = 65,
+    admin = 0,
+    vote = false,
+    hasLicense = false
+
+})
+
 
 
 
