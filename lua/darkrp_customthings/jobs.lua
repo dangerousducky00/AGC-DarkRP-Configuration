@@ -122,6 +122,24 @@ TEAM_MECHANIC = DarkRP.createJob("Mechanic", {
     -- Insert customCheck here if you have one and want one.
 })
 
+TEAM_whaler = DarkRP.createJob("Whaler", {
+    color = Color(139, 0, 0),
+    model = "models/player/gman_high.mdl",
+    description = [[Your job is to hunt whales and KILL them.Then you cuddle with them .]],
+    weapons = {"m9k_harpoon", "m9k_knife", "m9k_damascus",}, 
+    command = "whaler",
+    max = 3,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = true
+	
+	 })
+	 	customCheck = function(ply) return ply:CheckGroup("Admin") end 
+	 })
+	 
+})	
+
 
 
 
