@@ -136,6 +136,21 @@ TEAM_THIEF = DarkRP.createJob("whaler", {
 
 })
 
+ TEAM_SWATM = DarkRP.createJob("S.W.A.T Medic", {
+	color = Color(80, 45, 0, 255),
+	model = "models/player/swat.mdl",
+	description = [[Your job is to treat your fellow Swat member if they are hurt
+	you can also raid with the other swat members.]],
+	weapons = {"arrest_stick", "unarrest_stick", "stunstick", "door_ram", "weaponchecker", "med_kit" "m9k_m92beretta", "m9k_mp7"},
+	command = "swatm",
+	max = 3,
+	salary = 300,
+	admin = 0,
+	vote = true,
+	hasLicense = true,
+ 
+     })
+
 
 
 
