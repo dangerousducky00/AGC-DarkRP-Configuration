@@ -59,7 +59,7 @@ TEAM_HOBOKING = DarkRP.createJob("Hobo King", {
     admin = 0,
     vote = false,
     hasLicense = false,
-	hobo = true,
+    hobo = true,
      
     -- Insert customCheck here if you have one and want one.
 })
